@@ -85,6 +85,7 @@ This comprehensive guide is organized into several modules to provide a structur
 *   **`Prompt_and_SIE_Engineering_Best_Practices.md`:** Outlines robust engineering practices for managing the lifecycle of prompts and system instructions, including versioning, testing, monitoring, and collaborative workflows.
 *   **`PE_Troubleshooting.md`:** Provides comprehensive strategies for diagnosing and mitigating common issues with LLM outputs, such as hallucinations, bias, and security vulnerabilities.
 *   **`PE_Platform_Considerations.md`:** Discusses practical considerations for deploying LLMs on various platforms, including performance optimization, cost management, and API-specific best practices.
+*   **`PE_Case_Studies.md`:** ***(New)*** Provides practical, domain-specific case studies (e.g., Finance, Legal, Healthcare) that demonstrate how advanced LLM engineering techniques are applied to solve real-world problems.
 *   **`PE_Glossary.md`:** A comprehensive glossary of key terms and concepts used throughout the LLM engineering landscape.
 *   **`PE_Further_Reading.md`:** A curated list of academic papers, research articles, and essential resources for deeper exploration into the topics covered.
 

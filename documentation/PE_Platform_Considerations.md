@@ -45,6 +45,18 @@ Regardless of the specific LLM provider, several universal factors influence how
     *   **Model Specialization:** Choose models best suited for your task, as their pre-training and fine-tuning may inherently align with your needs.
     *   **Custom Fine-tuning:** If available, fine-tuning your chosen model on proprietary data or specific instruction datasets can significantly enhance performance and control beyond what prompting alone can achieve.
 
+### 1.6. Backend Performance Optimization
+
+While prompt engineering focuses on the input to the model, true production-readiness also requires considering backend optimizations that happen closer to the hardware. These techniques are crucial for managing inference costs, reducing latency, and deploying models in resource-constrained environments. Key methods include:
+
+*   **Quantization:** Reducing the model's numerical precision to save memory and speed up inference.
+*   **Speculative Decoding:** Using a smaller "draft" model to accelerate token generation.
+*   **Model Merging:** Combining multiple fine-tuned models to create a more versatile composite model.
+
+While these are typically managed by the platform provider or the MLOps team, being aware of them is important for a holistic understanding of LLM performance.
+
+*(For a more detailed explanation of these techniques, refer to the "Advanced Optimization for Real-World Deployment" section in `PE_Advanced_Techniques.md`.)*
+
 ## 2. Platform-Specific Considerations
 
 Here's a summary of considerations for some popular LLM platforms, highlighting features relevant to advanced LLM Engineering.
