@@ -24,6 +24,19 @@ Welcome to the **state-of-the-art guide** to **Large Language Model (LLM) Engine
 
 ---
 
+## 🚀 Local Development
+To preview the documentation site locally:
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Launch Server:**
+   ```bash
+   mkdocs serve
+   ```
+3. **View Site:** Open `http://127.0.0.1:8000` in your browser.
+
 ## 🛠 System Instructions Library
 Explore our curated collection of production-grade personas:
 [Browse Library](docs/system-instructions/prompt_pack.md)
