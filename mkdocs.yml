@@ -1,0 +1,63 @@
+site_name: Mastering LLM Engineering
+site_url: https://your-username.github.io/mastering-llm-engineering/
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Foundations:
+      - Basic Techniques: PE_Basic_Techneques.md
+  - Advanced Reasoning:
+      - Advanced Techniques: PE_Advanced_Techniques.md
+      - Case Studies: PE_Case_Studies.md
+      - Cheat Sheet: cheatsheet.md
+  - Systems Architecture:
+      - SIE Overview: SIE_Overview.md
+      - Multi-Persona Frameworks: SIE_Multi_Persona_Frameworks.md
+  - Tools & Best Practices:
+      - Engineering Best Practices: Prompt_and_SIE_Engineering_Best_Practices.md
+      - Platform Considerations: PE_Platform_Considerations.md
+      - Troubleshooting: PE_Troubleshooting.md
+      - Glossary: PE_Glossary.md
+      - Further Reading: PE_Further_Reading.md
+  - System Instructions Library:
+      - Overview: system-instructions/prompt_pack.md
+      - Prompt Enhancer: system-instructions/prompt_enhancer.md
+      - Code Architect: system-instructions/code-architect.md
+      - Creative Writing Engine: system-instructions/creative-writing-engine.md
+      - Legal Document Analyzer: system-instructions/legal-document-analyzer.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: true
